@@ -1,0 +1,47 @@
+.certificates {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  padding: 380px 80px 100px;
+  box-sizing: border-box;
+}
+
+.certificates h1 {
+  margin: 0 0 50px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.cert-slider {
+  display: flex;
+  gap: 30px;
+}
+
+.cert-card {
+  width: 595px;
+  color: #fff;
+}
+
+.certificate {
+  width: 595px;
+  height: 842px;
+  overflow: hidden;
+}
+
+.certificate img {
+  width: 595px;
+  height: 842px;
+  object-fit: cover;
+  display: block;
+}
+
+.cert-card h3 {
+  font-size: 20px;
+  margin: 20px 0 8px;
+}
+
+.cert-card p {
+  font-size: 15px;
+  color: #ccc;
+  margin: 0;
+}

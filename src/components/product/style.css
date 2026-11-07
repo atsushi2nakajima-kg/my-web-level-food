@@ -1,0 +1,114 @@
+.products {
+    background: #000;
+    color: #fff;
+    padding: 80px 60px 100px;
+}
+
+.products-top {
+    margin-bottom: 55px;
+}
+
+.products-top h1 {
+    font-size: 32px;
+    margin: 0 0 25px;
+}
+
+.products-top p {
+    color: #aaa;
+    font-size: 15px;
+    line-height: 1.35;
+    margin: 0;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 65px;
+}
+
+.categories a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.categories a:hover {
+    color: #fff;
+}
+
+.product-section {
+    margin-bottom: 90px;
+}
+
+.product-section h2 {
+    font-size: 18px;
+    margin: 0 0 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background: #fff;
+    color: #111;
+    border-radius: 14px;
+    padding: 10px;
+    width: 305px;
+    height: 437px;
+
+}
+
+.product-card img {
+    width: 273px;
+    height: 247px;
+    border-radius: 10px;
+
+    object-fit: cover;
+    border-radius: 9px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.product-card h3 {
+    font-size: 13px;
+    margin: 0 0 7px;
+}
+
+.product-card p {
+    font-size: 11px;
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.product-card strong {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.product-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.product-buttons button {
+    flex: 1;
+    height: 30px;
+    padding: 0;
+    border-radius: 7px;
+    background: #ed171b;
+    color: #fff;
+    border: 1px solid #ed171b;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.product-buttons .more {
+    background: #fff;
+    color: #ed171b;
+}

@@ -1,0 +1,38 @@
+/*  FOOTER  */
+
+.footer {
+  border-top: 1px solid #777;
+  min-height: 220px;
+  padding: 45px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.footer-logo h3 {
+  margin: 0 0 5px;
+}
+
+.big-logo {
+  font-size: 55px;
+}
+
+.footer-logo small {
+  font-size: 8px;
+}
+
+.contacts {
+  text-align: right;
+  font-size: 12px;
+  line-height: 1.5;
+}

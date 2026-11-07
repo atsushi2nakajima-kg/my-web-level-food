@@ -1,0 +1,31 @@
+.section1 {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .image1 {
+    width: 700px;
+    height: 400px;
+  }
+}
+.textseciton1 {
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  h1 {
+    font-size: 42px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 30px;
+  }
+  button {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 14px 48px;
+  }
+}
